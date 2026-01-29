@@ -1,0 +1,22 @@
+{
+  "name": "internet-mood-mirror",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "natural": "^8.1.0",
+    "openai": "^4.104.0",
+    "sentiment": "^5.0.2"
+  },
+  "description": "",
+  "main": "ai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
