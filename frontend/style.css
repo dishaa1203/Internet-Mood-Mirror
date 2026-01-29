@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1b1f3b, #000);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 90%;
+  max-width: 900px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+#summary {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+canvas {
+  width: 100%;
+  height: 260px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar span {
+  width: 80px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.bar-track {
+  flex: 1;
+  height: 12px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  font-size: 12px;
+  opacity: 0.4;
+  margin-top: 30px;
+}
