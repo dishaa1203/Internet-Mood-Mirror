@@ -11,9 +11,3 @@ An AI-powered web app that visualizes the emotional state of the internet in rea
 - Node.js + Express
 - OpenAI API
 - HTML Canvas animations
-
-## Run Locally
-1. Add OPENAI_API_KEY in `.env`
-2. `cd backend && npm install`
-3. `node server.js`
-4. Open frontend/index.html
